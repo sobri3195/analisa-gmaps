@@ -1,0 +1,22 @@
+.class public final Lcom/google/android/apps/gmm/directions/livetrips/on_device_signal/filesharer/SafeFileProvider;
+.super Lfsd;
+.source "PG"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    const v0, 0x7f17003f
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0, v0}, Lfsd;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method

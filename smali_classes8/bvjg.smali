@@ -1,0 +1,36 @@
+.class final Lbvjg;
+.super Lgdh;
+.source "PG"
+
+
+# virtual methods
+.method public final synthetic a(Ljava/lang/Object;)F
+    .locals 0
+
+    .line 1
+    check-cast p1, Lbvjh;
+
+    .line 2
+    .line 3
+    iget p1, p1, Lbvjh;->e:F
+
+    .line 4
+    .line 5
+    return p1
+.end method
+
+.method public final synthetic b(Ljava/lang/Object;F)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Lbvjh;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1, p2}, Lbvjh;->b(F)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

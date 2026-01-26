@@ -1,0 +1,498 @@
+.class public final Laam;
+.super Lctcp;
+.source "PG"
+
+# interfaces
+.implements Lctdt;
+
+
+# instance fields
+.field a:I
+
+.field final synthetic b:Ljava/util/List;
+
+.field final synthetic c:Z
+
+.field final synthetic d:Laas;
+
+.field final synthetic e:Z
+
+.field final synthetic f:Z
+
+.field final synthetic g:I
+
+.field h:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/List;Lctbw;ZLaas;ZZI)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Laam;->b:Ljava/util/List;
+
+    .line 2
+    .line 3
+    iput-boolean p3, p0, Laam;->c:Z
+
+    .line 4
+    .line 5
+    iput-object p4, p0, Laam;->d:Laas;
+
+    .line 6
+    .line 7
+    iput-boolean p5, p0, Laam;->e:Z
+
+    .line 8
+    .line 9
+    iput-boolean p6, p0, Laam;->f:Z
+
+    .line 10
+    .line 11
+    iput p7, p0, Laam;->g:I
+
+    .line 12
+    .line 13
+    const/4 p1, 0x2
+
+    .line 14
+    invoke-direct {p0, p1, p2}, Lctcp;-><init>(ILctbw;)V
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lctbw;)Lctbw;
+    .locals 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lctbw<",
+            "*>;)",
+            "Lctbw<",
+            "Lcszv;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-boolean v3, p0, Laam;->c:Z
+
+    .line 2
+    .line 3
+    iget-object v4, p0, Laam;->d:Laas;
+
+    .line 4
+    .line 5
+    iget-boolean v5, p0, Laam;->e:Z
+
+    .line 6
+    .line 7
+    iget-boolean v6, p0, Laam;->f:Z
+
+    .line 8
+    .line 9
+    iget v7, p0, Laam;->g:I
+
+    .line 10
+    .line 11
+    new-instance v0, Laam;
+
+    .line 12
+    .line 13
+    iget-object v1, p0, Laam;->b:Ljava/util/List;
+
+    .line 14
+    .line 15
+    move-object v2, p2
+
+    .line 16
+    invoke-direct/range {v0 .. v7}, Laam;-><init>(Ljava/util/List;Lctbw;ZLaas;ZZI)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-object v0
+.end method
+
+.method public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lctjg;
+
+    .line 2
+    .line 3
+    check-cast p2, Lctbw;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, Lctcj;->create(Ljava/lang/Object;Lctbw;)Lctbw;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    sget-object p2, Lcszv;->a:Lcszv;
+
+    .line 10
+    .line 11
+    check-cast p1, Laam;
+
+    .line 12
+    .line 13
+    invoke-virtual {p1, p2}, Laam;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    .line 1
+    sget-object v0, Lctce;->a:Lctce;
+
+    .line 2
+    .line 3
+    iget v1, p0, Laam;->a:I
+
+    .line 4
+    .line 5
+    const/4 v2, 0x3
+
+    .line 6
+    const/4 v3, 0x2
+
+    .line 7
+    const/4 v4, 0x0
+
+    .line 8
+    const/4 v5, 0x1
+
+    .line 9
+    if-eqz v1, :cond_3
+
+    .line 10
+    .line 11
+    if-eq v1, v5, :cond_2
+
+    .line 12
+    .line 13
+    if-eq v1, v3, :cond_1
+
+    .line 14
+    .line 15
+    if-eq v1, v2, :cond_0
+
+    .line 16
+    .line 17
+    invoke-static {p1}, Lctby;->cA(Ljava/lang/Object;)V
+
+    .line 18
+    .line 19
+    .line 20
+    goto/16 :goto_5
+
+    .line 21
+    .line 22
+    :cond_0
+    iget-object v0, p0, Laam;->h:Ljava/lang/Object;
+
+    .line 23
+    .line 24
+    :try_start_0
+    invoke-static {p1}, Lctby;->cA(Ljava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 25
+    .line 26
+    .line 27
+    goto :goto_2
+
+    .line 28
+    :catchall_0
+    move-exception p1
+
+    .line 29
+    goto :goto_3
+
+    .line 30
+    :cond_1
+    invoke-static {p1}, Lctby;->cA(Ljava/lang/Object;)V
+
+    .line 31
+    .line 32
+    .line 33
+    goto :goto_1
+
+    .line 34
+    :cond_2
+    invoke-static {p1}, Lctby;->cA(Ljava/lang/Object;)V
+
+    .line 35
+    .line 36
+    .line 37
+    goto :goto_0
+
+    .line 38
+    :cond_3
+    invoke-static {p1}, Lctby;->cA(Ljava/lang/Object;)V
+
+    .line 39
+    .line 40
+    .line 41
+    iget-object p1, p0, Laam;->b:Ljava/util/List;
+
+    .line 42
+    .line 43
+    iput v5, p0, Laam;->a:I
+
+    .line 44
+    .line 45
+    invoke-static {p1, p0}, Lcpxx;->D(Ljava/util/Collection;Lctbw;)Ljava/lang/Object;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object p1
+
+    .line 49
+    if-ne p1, v0, :cond_4
+
+    .line 50
+    .line 51
+    goto :goto_4
+
+    .line 52
+    :cond_4
+    :goto_0
+    iget-boolean p1, p0, Laam;->c:Z
+
+    .line 53
+    .line 54
+    if-eqz p1, :cond_5
+
+    .line 55
+    .line 56
+    iget-object p1, p0, Laam;->d:Laas;
+
+    .line 57
+    .line 58
+    iget-object p1, p1, Laas;->a:Lacn;
+
+    .line 59
+    .line 60
+    const/4 v1, 0x6
+
+    .line 61
+    invoke-static {p1, v4, v4, v1}, Lacn;->e(Lacn;IZI)Lctjm;
+
+    .line 62
+    .line 63
+    .line 64
+    :cond_5
+    iget-boolean p1, p0, Laam;->e:Z
+
+    .line 65
+    .line 66
+    if-eqz p1, :cond_7
+
+    .line 67
+    .line 68
+    iget-object p1, p0, Laam;->d:Laas;
+
+    .line 69
+    .line 70
+    iget-object p1, p1, Laas;->f:Lakz;
+
+    .line 71
+    .line 72
+    invoke-virtual {p1}, Lakz;->e()Lals;
+
+    .line 73
+    .line 74
+    .line 75
+    move-result-object p1
+
+    .line 76
+    iput v3, p0, Laam;->a:I
+
+    .line 77
+    .line 78
+    invoke-virtual {p1, p0}, Lals;->a(Lctbw;)Ljava/lang/Object;
+
+    .line 79
+    .line 80
+    .line 81
+    move-result-object p1
+
+    .line 82
+    if-eq p1, v0, :cond_8
+
+    .line 83
+    .line 84
+    :goto_1
+    check-cast p1, Ljava/lang/AutoCloseable;
+
+    .line 85
+    .line 86
+    :try_start_1
+    move-object v1, p1
+
+    .line 87
+    check-cast v1, Lalt;
+
+    .line 88
+    .line 89
+    iget v3, p0, Laam;->g:I
+
+    .line 90
+    .line 91
+    if-nez v3, :cond_6
+
+    .line 92
+    .line 93
+    move v4, v5
+
+    .line 94
+    :cond_6
+    iput-object p1, p0, Laam;->h:Ljava/lang/Object;
+
+    .line 95
+    .line 96
+    iput v2, p0, Laam;->a:I
+
+    .line 97
+    .line 98
+    invoke-virtual {v1, v4}, Lalt;->c(Z)Ljava/lang/Object;
+
+    .line 99
+    .line 100
+    .line 101
+    move-result-object v1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    .line 102
+    if-eq v1, v0, :cond_8
+
+    .line 103
+    .line 104
+    move-object v0, p1
+
+    .line 105
+    :goto_2
+    const/4 p1, 0x0
+
+    .line 106
+    invoke-static {v0, p1}, Lcpvf;->u(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
+
+    .line 107
+    .line 108
+    .line 109
+    goto :goto_5
+
+    .line 110
+    :catchall_1
+    move-exception v0
+
+    .line 111
+    move-object v6, v0
+
+    .line 112
+    move-object v0, p1
+
+    .line 113
+    move-object p1, v6
+
+    .line 114
+    :goto_3
+    :try_start_2
+    throw p1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_2
+
+    .line 115
+    :catchall_2
+    move-exception v1
+
+    .line 116
+    invoke-static {v0, p1}, Lcpvf;->u(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
+
+    .line 117
+    .line 118
+    .line 119
+    throw v1
+
+    .line 120
+    :cond_7
+    iget-boolean p1, p0, Laam;->f:Z
+
+    .line 121
+    .line 122
+    if-eqz p1, :cond_9
+
+    .line 123
+    .line 124
+    iget p1, p0, Laam;->g:I
+
+    .line 125
+    .line 126
+    if-nez p1, :cond_9
+
+    .line 127
+    .line 128
+    iget-object p1, p0, Laam;->d:Laas;
+
+    .line 129
+    .line 130
+    sget-wide v1, Laat;->b:J
+
+    .line 131
+    .line 132
+    const/4 v3, 0x4
+
+    .line 133
+    iput v3, p0, Laam;->a:I
+
+    .line 134
+    .line 135
+    invoke-virtual {p1, v1, v2, p0}, Laas;->o(JLctbw;)Ljava/lang/Object;
+
+    .line 136
+    .line 137
+    .line 138
+    move-result-object p1
+
+    .line 139
+    if-ne p1, v0, :cond_9
+
+    .line 140
+    .line 141
+    :cond_8
+    :goto_4
+    return-object v0
+
+    .line 142
+    :cond_9
+    :goto_5
+    sget-object p1, Lcszv;->a:Lcszv;
+
+    .line 143
+    .line 144
+    return-object p1
+.end method

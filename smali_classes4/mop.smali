@@ -1,0 +1,86 @@
+.class final Lmop;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ladmy;
+
+
+# instance fields
+.field final synthetic a:Lmsi;
+
+
+# direct methods
+.method public constructor <init>(Lmsi;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lmop;->a:Lmsi;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ladmx;
+    .locals 3
+
+    .line 1
+    new-instance v0, Ladmx;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lmop;->a:Lmsi;
+
+    .line 4
+    .line 5
+    iget-object v1, v1, Lmsi;->c:Lmsj;
+
+    .line 6
+    .line 7
+    iget-object v2, v1, Lmsj;->ja:Lcpol;
+
+    .line 8
+    .line 9
+    invoke-interface {v2}, Lcpol;->a()Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v2
+
+    .line 13
+    check-cast v2, Lbdaa;
+
+    .line 14
+    .line 15
+    iget-object v1, v1, Lmsj;->i:Lcpol;
+
+    .line 16
+    .line 17
+    check-cast v1, Lcpog;
+
+    .line 18
+    .line 19
+    iget-object v1, v1, Lcpog;->b:Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    check-cast v1, Lbf;
+
+    .line 22
+    .line 23
+    invoke-direct {v0, v2, v1, p1, p2}, Ladmx;-><init>(Lbdaa;Lbf;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
+
+    .line 24
+    .line 25
+    .line 26
+    return-object v0
+.end method

@@ -1,0 +1,525 @@
+.class public final synthetic Lampd;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbijp;
+
+
+# instance fields
+.field private final synthetic a:I
+
+
+# direct methods
+.method public synthetic constructor <init>(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lampd;->a:I
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lbijh;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lampd;->a:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    check-cast p1, Lamrd;
+
+    .line 7
+    .line 8
+    invoke-interface {p1}, Lamrd;->ag()Ljava/lang/Boolean;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    return-object p1
+
+    .line 13
+    :pswitch_0
+    check-cast p1, Lamrd;
+
+    .line 14
+    .line 15
+    invoke-interface {p1}, Lamrd;->U()Lbije;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    return-object p1
+
+    .line 20
+    :pswitch_1
+    check-cast p1, Lamrd;
+
+    .line 21
+    .line 22
+    invoke-interface {p1}, Lamrd;->T()Lbije;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p1
+
+    .line 26
+    return-object p1
+
+    .line 27
+    :pswitch_2
+    check-cast p1, Lamrd;
+
+    .line 28
+    .line 29
+    invoke-interface {p1}, Lamrd;->J()Lbdzm;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    return-object p1
+
+    .line 34
+    :pswitch_3
+    check-cast p1, Lamrd;
+
+    .line 35
+    .line 36
+    invoke-interface {p1}, Lamrd;->Q()Lbije;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object p1
+
+    .line 40
+    return-object p1
+
+    .line 41
+    :pswitch_4
+    check-cast p1, Lamrd;
+
+    .line 42
+    .line 43
+    invoke-interface {p1}, Lamrd;->ab()Lbipt;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object p1
+
+    .line 47
+    return-object p1
+
+    .line 48
+    :pswitch_5
+    check-cast p1, Lamrd;
+
+    .line 49
+    .line 50
+    invoke-interface {p1}, Lamrd;->aF()Ljava/lang/String;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object p1
+
+    .line 54
+    return-object p1
+
+    .line 55
+    :pswitch_6
+    check-cast p1, Lamrd;
+
+    .line 56
+    .line 57
+    invoke-interface {p1}, Lamrd;->ao()Ljava/lang/Boolean;
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object p1
+
+    .line 61
+    return-object p1
+
+    .line 62
+    :pswitch_7
+    check-cast p1, Lamrd;
+
+    .line 63
+    .line 64
+    invoke-interface {p1}, Lamrd;->O()Lbije;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object p1
+
+    .line 68
+    return-object p1
+
+    .line 69
+    :pswitch_8
+    check-cast p1, Lamrd;
+
+    .line 70
+    .line 71
+    invoke-interface {p1}, Lamrd;->D()Lalul;
+
+    .line 72
+    .line 73
+    .line 74
+    move-result-object p1
+
+    .line 75
+    return-object p1
+
+    .line 76
+    :pswitch_9
+    check-cast p1, Lamrd;
+
+    .line 77
+    .line 78
+    invoke-interface {p1}, Lamrd;->aq()Ljava/lang/Boolean;
+
+    .line 79
+    .line 80
+    .line 81
+    move-result-object p1
+
+    .line 82
+    return-object p1
+
+    .line 83
+    :pswitch_a
+    check-cast p1, Lamrf;
+
+    .line 84
+    .line 85
+    invoke-interface {p1}, Lamrf;->a()Lbije;
+
+    .line 86
+    .line 87
+    .line 88
+    move-result-object p1
+
+    .line 89
+    return-object p1
+
+    .line 90
+    :pswitch_b
+    check-cast p1, Lamrf;
+
+    .line 91
+    .line 92
+    invoke-interface {p1}, Lamrf;->d()Ljava/lang/CharSequence;
+
+    .line 93
+    .line 94
+    .line 95
+    move-result-object p1
+
+    .line 96
+    return-object p1
+
+    .line 97
+    :pswitch_c
+    check-cast p1, Lamrf;
+
+    .line 98
+    .line 99
+    invoke-interface {p1}, Lamrf;->b()Lbije;
+
+    .line 100
+    .line 101
+    .line 102
+    move-result-object p1
+
+    .line 103
+    return-object p1
+
+    .line 104
+    :pswitch_d
+    check-cast p1, Lamrf;
+
+    .line 105
+    .line 106
+    invoke-interface {p1}, Lamrf;->c()Ljava/lang/Boolean;
+
+    .line 107
+    .line 108
+    .line 109
+    move-result-object p1
+
+    .line 110
+    return-object p1
+
+    .line 111
+    :pswitch_e
+    check-cast p1, Lamrd;
+
+    .line 112
+    .line 113
+    invoke-interface {p1}, Lamrd;->aq()Ljava/lang/Boolean;
+
+    .line 114
+    .line 115
+    .line 116
+    move-result-object p1
+
+    .line 117
+    return-object p1
+
+    .line 118
+    :pswitch_f
+    check-cast p1, Lamrd;
+
+    .line 119
+    .line 120
+    invoke-interface {p1}, Lamrd;->H()Lamxs;
+
+    .line 121
+    .line 122
+    .line 123
+    move-result-object p1
+
+    .line 124
+    invoke-interface {p1}, Lamxs;->t()Lbdzm;
+
+    .line 125
+    .line 126
+    .line 127
+    move-result-object p1
+
+    .line 128
+    return-object p1
+
+    .line 129
+    :pswitch_10
+    check-cast p1, Lamrd;
+
+    .line 130
+    .line 131
+    invoke-interface {p1}, Lamrd;->H()Lamxs;
+
+    .line 132
+    .line 133
+    .line 134
+    move-result-object p1
+
+    .line 135
+    invoke-interface {p1}, Lamxs;->r()Lbdzm;
+
+    .line 136
+    .line 137
+    .line 138
+    move-result-object p1
+
+    .line 139
+    return-object p1
+
+    .line 140
+    :pswitch_11
+    check-cast p1, Lamrd;
+
+    .line 141
+    .line 142
+    invoke-interface {p1}, Lamrd;->H()Lamxs;
+
+    .line 143
+    .line 144
+    .line 145
+    move-result-object p1
+
+    .line 146
+    return-object p1
+
+    .line 147
+    :pswitch_12
+    check-cast p1, Lamrd;
+
+    .line 148
+    .line 149
+    invoke-interface {p1}, Lamrd;->G()Lamrg;
+
+    .line 150
+    .line 151
+    .line 152
+    move-result-object v0
+
+    .line 153
+    const/4 v1, 0x1
+
+    .line 154
+    if-eqz v0, :cond_1
+
+    .line 155
+    .line 156
+    invoke-interface {p1}, Lamrd;->D()Lalul;
+
+    .line 157
+    .line 158
+    .line 159
+    move-result-object v0
+
+    .line 160
+    if-eqz v0, :cond_1
+
+    .line 161
+    .line 162
+    invoke-interface {p1}, Lamrd;->D()Lalul;
+
+    .line 163
+    .line 164
+    .line 165
+    move-result-object p1
+
+    .line 166
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 167
+    .line 168
+    .line 169
+    invoke-interface {p1}, Lalul;->d()Laluj;
+
+    .line 170
+    .line 171
+    .line 172
+    move-result-object p1
+
+    .line 173
+    if-nez p1, :cond_0
+
+    .line 174
+    .line 175
+    goto :goto_0
+
+    .line 176
+    :cond_0
+    const/4 v1, 0x0
+
+    .line 177
+    :cond_1
+    :goto_0
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 178
+    .line 179
+    .line 180
+    move-result-object p1
+
+    .line 181
+    return-object p1
+
+    .line 182
+    :pswitch_13
+    check-cast p1, Lamrd;
+
+    .line 183
+    .line 184
+    invoke-interface {p1}, Lamrd;->D()Lalul;
+
+    .line 185
+    .line 186
+    .line 187
+    move-result-object v0
+
+    .line 188
+    if-eqz v0, :cond_2
+
+    .line 189
+    .line 190
+    invoke-interface {p1}, Lamrd;->D()Lalul;
+
+    .line 191
+    .line 192
+    .line 193
+    move-result-object p1
+
+    .line 194
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 195
+    .line 196
+    .line 197
+    invoke-interface {p1}, Lalul;->d()Laluj;
+
+    .line 198
+    .line 199
+    .line 200
+    move-result-object p1
+
+    .line 201
+    return-object p1
+
+    .line 202
+    :cond_2
+    const/4 p1, 0x0
+
+    .line 203
+    return-object p1
+
+    .line 204
+    nop
+
+    .line 205
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_13
+        :pswitch_12
+        :pswitch_11
+        :pswitch_10
+        :pswitch_f
+        :pswitch_e
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final synthetic b()Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method

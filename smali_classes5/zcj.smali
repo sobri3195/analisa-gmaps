@@ -1,0 +1,32 @@
+.class public final Lzcj;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lbxmd;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    const-string v0, "zcj"
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lbxmd;->g(Ljava/lang/String;)Lbxmd;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    sput-object v0, Lzcj;->a:Lbxmd;
+
+    .line 8
+    .line 9
+    return-void
+.end method

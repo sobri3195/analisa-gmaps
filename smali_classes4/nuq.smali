@@ -1,0 +1,20 @@
+.class final Lnuq;
+.super Landroid/graphics/drawable/InsetDrawable;
+.source "PG"
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# virtual methods
+.method public final getPadding(Landroid/graphics/Rect;)Z
+    .locals 0
+
+    .line 1
+    const/4 p1, 0x0
+
+    .line 2
+    return p1
+.end method

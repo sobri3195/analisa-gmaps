@@ -1,0 +1,22 @@
+.class public interface abstract Lyia;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbijh;
+
+
+# virtual methods
+.method public abstract u()Lcom/google/common/collect/ImmutableList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/common/collect/ImmutableList<",
+            "Lzeq;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract v()Ljava/lang/Boolean;
+.end method

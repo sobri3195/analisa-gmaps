@@ -1,0 +1,23 @@
+.class public interface abstract Lateo;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbijh;
+
+
+# virtual methods
+.method public abstract a()Loma;
+.end method
+
+.method public abstract b()Lbdzj;
+.end method
+
+.method public abstract c()Lbije;
+.end method
+
+.method public abstract d()Ljava/lang/String;
+.end method
+
+.method public abstract e()Ljava/lang/String;
+.end method

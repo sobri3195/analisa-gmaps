@@ -1,0 +1,70 @@
+.class Lbdrr;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbdrp;
+
+
+# instance fields
+.field final synthetic a:Lbdru;
+
+
+# direct methods
+.method public constructor <init>(Lbdru;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lbdrr;->a:Lbdru;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Lbdri;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return-object v0
+.end method
+
+.method public b()Lbdrj;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbdrr;->a:Lbdru;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbdru;->o:Lbdrj;
+
+    .line 4
+    .line 5
+    return-object v0
+.end method
+
+.method public c()Lbvpt;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbdrr;->a:Lbdru;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbdru;->k:Lbvpt;
+
+    .line 4
+    .line 5
+    return-object v0
+.end method

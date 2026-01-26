@@ -1,0 +1,6 @@
+.class public interface abstract Lvif;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Layzh;

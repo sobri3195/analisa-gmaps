@@ -1,0 +1,29 @@
+.class public interface abstract Ltws;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbijh;
+
+
+# virtual methods
+.method public abstract c()Lcom/google/common/collect/ImmutableList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/common/collect/ImmutableList<",
+            "Lbiig<",
+            "Ltwr;",
+            ">;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract d()Ljava/lang/CharSequence;
+.end method
+
+.method public abstract e()Ljava/lang/CharSequence;
+.end method
+
+.method public abstract g()Z
+.end method

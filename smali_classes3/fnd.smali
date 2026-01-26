@@ -1,0 +1,44 @@
+.class public final Lfnd;
+.super Lfjn;
+.source "PG"
+
+
+# virtual methods
+.method public final e(Landroid/view/View;FJLbin;)Z
+    .locals 6
+
+    .line 1
+    move-object v0, p0
+
+    .line 2
+    move-object v4, p1
+
+    .line 3
+    move v1, p2
+
+    .line 4
+    move-wide v2, p3
+
+    .line 5
+    move-object v5, p5
+
+    .line 6
+    invoke-virtual/range {v0 .. v5}, Lfjn;->d(FJLandroid/view/View;Lbin;)F
+
+    .line 7
+    .line 8
+    .line 9
+    move-result p1
+
+    .line 10
+    invoke-virtual {v4, p1}, Landroid/view/View;->setRotation(F)V
+
+    .line 11
+    .line 12
+    .line 13
+    iget-boolean p1, p0, Lfnd;->h:Z
+
+    .line 14
+    .line 15
+    return p1
+.end method

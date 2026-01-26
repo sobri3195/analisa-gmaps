@@ -1,0 +1,65 @@
+.class public final Lipk;
+.super Lmb;
+.source "PG"
+
+
+# instance fields
+.field final synthetic b:Landroidx/viewpager2/widget/ViewPager2;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/viewpager2/widget/ViewPager2;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lipk;->b:Landroidx/viewpager2/widget/ViewPager2;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lmb;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Lmp;)Landroid/view/View;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lipk;->b:Landroidx/viewpager2/widget/ViewPager2;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;->j()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    const/4 p1, 0x0
+
+    .line 10
+    return-object p1
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1}, Lmb;->b(Lmp;)Landroid/view/View;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p1
+
+    .line 15
+    return-object p1
+.end method

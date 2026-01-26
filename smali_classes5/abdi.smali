@@ -1,0 +1,3 @@
+.class public interface abstract Labdi;
+.super Ljava/lang/Object;
+.source "PG"

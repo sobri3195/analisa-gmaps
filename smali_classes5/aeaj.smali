@@ -1,0 +1,8 @@
+.class public interface abstract Laeaj;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# virtual methods
+.method public abstract a(IIZZLbdyw;)V
+.end method

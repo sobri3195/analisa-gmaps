@@ -1,0 +1,42 @@
+.class public final Ladso;
+.super Ladqz;
+.source "PG"
+
+
+# static fields
+.field public static final a:Ladso;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Ladso;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Ladso;->a:Ladso;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b()Ladrl;
+    .locals 1
+
+    .line 1
+    sget-object v0, Ladrl;->a:Ladrl;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
